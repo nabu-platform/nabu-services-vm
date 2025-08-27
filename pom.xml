@@ -11,12 +11,16 @@
 	</parent>
 	<dependencies>
 		<dependency>
+			<groupId>nabu.services</groupId>
+			<artifactId>iface</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>nabu.types</groupId>
 			<artifactId>structure</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>nabu.services</groupId>
-			<artifactId>iface</artifactId>
+			<groupId>nabu.misc</groupId>
+			<artifactId>cluster</artifactId>
 		</dependency>
 	</dependencies>
 </project>
